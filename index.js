@@ -21,8 +21,8 @@ newHacker += `${hacker1[i].toUpperCase()} `
 console.log(newHacker)
 
 let hacker3 = ""
-for (let i = hacker1.length - 1 ; i >= 0 ; i--){
-hacker3 += `${hacker1[i]}`
+for (let i = hacker2.length - 1 ; i >= 0 ; i--){
+hacker3 += hacker2[i]
 }
 console.log(hacker3)
 
